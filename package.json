@@ -1,0 +1,26 @@
+{
+  "name": "nDraw",
+  "version": "0.0.0",
+  "description": "Multiplayer Drawing App using node js and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nmante/node-draw.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "socket.io",
+    "drawing",
+    "draw"
+  ],
+  "author": "Nii Mante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmante/node-draw/issues"
+  },
+  "homepage": "https://github.com/nmante/node-draw"
+}
