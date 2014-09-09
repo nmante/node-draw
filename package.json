@@ -4,7 +4,8 @@
   "description": "Multiplayer Drawing App using node js and socket.io",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/nmante/node-draw/issues"
   },
-  "homepage": "https://github.com/nmante/node-draw"
+  "homepage": "https://github.com/nmante/node-draw",
+  "dependencies": {
+    "express": "4.9.0",
+    "node-static": "0.7.4",
+    "socket.io": "^1.1.0"
+  }
 }
